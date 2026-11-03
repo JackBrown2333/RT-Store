@@ -1,0 +1,5 @@
+R30_THESIS_STYLE_V2
+2026-11-01
+Reference PDF pages 40 and 54.
+Force and FFT algorithms unchanged.
+Native MATLAB FIG export must be run in MATLAB.
