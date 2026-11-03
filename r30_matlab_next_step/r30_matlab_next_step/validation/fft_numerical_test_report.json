@@ -1,1 +1,0 @@
-{"sinusoid_amplitude_error":7.503686560994538e-9,"constant_removed":true,"nyquist_not_doubled":true,"odd_length":true,"independent_columns":true,"actual_M_8800_samples":true,"no_zero_padding":true,"force_sum_closure_N":0,"note":"Numerics tested with GNU Octave; native MATLAB FIG/PDF export requires running the script in MATLAB."}
