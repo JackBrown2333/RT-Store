@@ -1,0 +1,156 @@
+{
+  "version": "R30_THESIS_STYLE_V2",
+  "files": [
+    {
+      "name": "00_START_HERE_zh.txt",
+      "bytes": 725,
+      "sha256": "ccb6b8286148ae7a2fdd0e282259dfd85ae8a11b5c8668d45faafc27a2426736"
+    },
+    {
+      "name": "README_zh.md",
+      "bytes": 9400,
+      "sha256": "817514203fd565e15e7b8a15d2eb41f4f0b7e74b822bdafe9c42fc25d583f3d4"
+    },
+    {
+      "name": "START_R30_DIRECTION.m",
+      "bytes": 508,
+      "sha256": "558b9e71cd5a126a7a34aa8becf295706603c2b873edf41dade75570e9e1a5be"
+    },
+    {
+      "name": "START_R30_PLOTS.m",
+      "bytes": 445,
+      "sha256": "a699b40cbd00c1f78ce7453f99e819d72757679b1acad945175434e7a65d13cf"
+    },
+    {
+      "name": "VERSION.txt",
+      "bytes": 146,
+      "sha256": "afcdbf45bf985bd89f8c650ffc53e4fcefe84c25855a27d6f988f70db1b37914"
+    },
+    {
+      "name": "example_data/multitooth_pilot.mat",
+      "bytes": 7146116,
+      "sha256": "d0ee1f44e7a599b4a0b26d392d45964b2304dede99eccfeabf9117d32d2f6783"
+    },
+    {
+      "name": "preview_figures.py",
+      "bytes": 11395,
+      "sha256": "78c8e80fa89fea0bd914957427b417614604505bf16c5746e143b69758f2bc76"
+    },
+    {
+      "name": "previews/F01_global_force.png",
+      "bytes": 131145,
+      "sha256": "5ece05ed3a53205adf7da5bdbd1873fa1deaa084181519719d93e71fc7051488"
+    },
+    {
+      "name": "previews/F02_global_FFT.png",
+      "bytes": 95839,
+      "sha256": "aae5da5d68ccb70f1e9c75f598dd98c0c4f465a738d4d850d1d5975f930b3944"
+    },
+    {
+      "name": "previews/F03_tooth_17_force.png",
+      "bytes": 174299,
+      "sha256": "530d31a7ba072f2721689262153d3bc8a44b1df8474f3e9ee42bdac79649e4b5"
+    },
+    {
+      "name": "previews/F04_pair_17_18_superposition.png",
+      "bytes": 181775,
+      "sha256": "964393462e79d52356589a5ecbd33200fb4091eceff3a1072cb635178906947f"
+    },
+    {
+      "name": "previews/F05_per_tooth_normal_contributions.png",
+      "bytes": 131216,
+      "sha256": "357e02e69cde56a86c45c389299500a4f28b2835ea7f3721f79d0afb50ad347c"
+    },
+    {
+      "name": "previews/F06_removing_counts_and_torque.png",
+      "bytes": 108141,
+      "sha256": "5c5fa71ae0804a5c43219fec5946080d9e36bd03ac5f916b034598a5a27e6999"
+    },
+    {
+      "name": "previews/F07_torque_time_frequency.png",
+      "bytes": 110143,
+      "sha256": "8383b4009bfabb628f67460ee4c91d7c45db88d3fbe7398d0b25809469e50cb1"
+    },
+    {
+      "name": "previews/preview_validation.json",
+      "bytes": 472,
+      "sha256": "426763c1cd8c833d04302775dc060e349d2e344f9141cfc9eed76dc6e2b61f34"
+    },
+    {
+      "name": "previews/r30_academic_preview.png",
+      "bytes": 618921,
+      "sha256": "47af421a06ac38e6d76575d8f09dd7b07d8bbded4d659cefbc5ba62dad35f8f4"
+    },
+    {
+      "name": "r30d_wheel_geometry.m",
+      "bytes": 1990,
+      "sha256": "078f1eec0742d1dbd4df09315b14ffb423c681433a02380ed069db90471457f4"
+    },
+    {
+      "name": "r30f_setup_paths.m",
+      "bytes": 2914,
+      "sha256": "3f3ca35a925778a3c0496127ed8b57e35956eb4ee54afd9dfc3d098e65c74861"
+    },
+    {
+      "name": "r30f_spectrum.m",
+      "bytes": 1245,
+      "sha256": "0e060851524cc36eec2397273fa354600b09549de1def6a3d3a33979ed3c181c"
+    },
+    {
+      "name": "r30f_thesis_figures.m",
+      "bytes": 9476,
+      "sha256": "6825ef9b663621681cde2d133267c4b703b25ea515a180218a44e93d6ec6af31"
+    },
+    {
+      "name": "run_r30_academic_figures.m",
+      "bytes": 9157,
+      "sha256": "8967214a9c2038b3382ad521b4af0f77cc73e5ecf57020f53226a4e7d6641368"
+    },
+    {
+      "name": "run_r30_contact_direction_audit.m",
+      "bytes": 15709,
+      "sha256": "9b9cb2975b235aea684196d385206866f0d6a59aa34ff9ba9bbc35e70dce7fe0"
+    },
+    {
+      "name": "test_r30d_native_fixture.m",
+      "bytes": 5033,
+      "sha256": "c1538ace000c66b69ef1a9550ff4bcbe497fc87f2880a45924cd912ca02ff169"
+    },
+    {
+      "name": "test_r30f_numerics.m",
+      "bytes": 1408,
+      "sha256": "2b2bdc725f02efb5f6fb4d373dc01f80da40fdd7571dd39fd71b8a4a7038138d"
+    },
+    {
+      "name": "validation/contact_diagnostic_SYNTHETIC_test_report.json",
+      "bytes": 703,
+      "sha256": "47612b0775679353df92bd16f11d4c340ada8919fd35bae5354dac6447a3a5a9"
+    },
+    {
+      "name": "validation/data_snapshot.json",
+      "bytes": 385,
+      "sha256": "4d504ce10f4920c231f3eff3cc540c972f7bfe44b02849d2bd677ddd3df88576"
+    },
+    {
+      "name": "validation/fft_numerical_test_report.json",
+      "bytes": 331,
+      "sha256": "cf53acf76e078a2e32c6c03e2c59d38066e11e1bd5290fffb20808f1b16cfe9f"
+    },
+    {
+      "name": "validation/preview_validation.json",
+      "bytes": 472,
+      "sha256": "426763c1cd8c833d04302775dc060e349d2e344f9141cfc9eed76dc6e2b61f34"
+    },
+    {
+      "name": "validation/style_v2_preservation.json",
+      "bytes": 642,
+      "sha256": "0e824408db857b0b5f957dfe13a4db6f9e88bb0bf78f16873d0237ca51431aa2"
+    },
+    {
+      "name": "validation/thesis_style_reference.json",
+      "bytes": 705,
+      "sha256": "a91075764ae666037545d63184c621ba83f831ca9d661bca75254ccb7120b003"
+    }
+  ],
+  "native_MATLAB_FIG_export_run": false
+}

@@ -1,0 +1,15 @@
+function h=height_at(H,se,ze,s,z)
+% Coordinate guard only: signed material heights are never clipped to zero.
+assert(isscalar(s)&&isscalar(z)&&isfinite(s)&&isfinite(z),...
+ 'R30B:StripCenter','Strip center coordinates must be finite scalars.');
+tol=128*eps(max([1;abs(se(:));abs(ze(:))]));
+assert(s>=se(1)-tol&&s<=se(end)+tol&&z>=ze(1)-tol&&z<=ze(end)+tol,...
+ 'R30B:StripCenterDomain','Strip center (s=%.17g,z=%.17g) is outside the material support.',s,z);
+% Only machine-roundoff excursions of the coordinates are moved to the edge.
+s=min(max(s,se(1)),se(end));z=min(max(z,ze(1)),ze(end));
+i=find(se<=s,1,'last');j=find(ze<=z,1,'last');
+assert(~isempty(i)&&~isempty(j),'R30B:StripCenterIndex','Material support lookup returned an empty index.');
+i=min(i,size(H,1));j=min(j,size(H,2));h=H(i,j);
+assert(isscalar(h)&&isfinite(h),'R30B:StripCenterHeight','Strip center height must be a finite scalar.');
+end
+
