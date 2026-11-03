@@ -1,0 +1,16 @@
+function S=r30b_sum(rows,outward,t,dt,volume,area)
+F=[0 0 0];N=F;M=F;fn=0;b=0;heq=NaN;lg=NaN;ae=0;dh=0;
+if ~isempty(rows)
+ F=[sum([rows.Fx_N]),sum([rows.Fy_N]),sum([rows.Fz_N])];
+ N=[sum([rows.Nvec_x_N]),sum([rows.Nvec_y_N]),sum([rows.Nvec_z_N])];
+ M=[sum([rows.Mx_Nmm]),sum([rows.My_Nmm]),sum([rows.Mz_Nmm])];fn=sum([rows.Fn_N]);
+ b=sum([rows.b_mm]);heq=sum([rows.b_mm].*[rows.heq_mm])/b;lg=sum([rows.b_mm].*[rows.lg_mm])/b;
+ ae=max([rows.ae_pass_mm]);dh=max([rows.dh_step_mm]);
+end
+S=struct('t_s',t,'t_start_s',t-dt,'dt_s',dt,'dV_mm3',volume,'Vdot_mm3ps',volume/dt,...
+ 'area_mm2',area,'nForceCells',numel(rows),'force_N',F,'normalVector_N',N,'moment_Nmm',M,...
+ 'F_resultant_N',norm(F),'Fn_pure_resultant_N',norm(N),'Fn_magnitude_sum_N',fn,...
+ 'F_reference_compression_N',dot(F,-outward),'N_reference_compression_N',dot(N,-outward),...
+ 'referenceOutward',outward,'Tc_Nm',M(3)/1000,'b_sum_mm',b,'heq_widthWeighted_mm',heq,...
+ 'lg_widthWeighted_mm',lg,'ae_pass_peak_mm',ae,'dh_step_peak_mm',dh,'forceComputed',true);
+end
